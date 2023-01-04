@@ -8,4 +8,5 @@ import App from './App.vue'
 import 'element-plus/es/components/notification/style/css'
 
 const pinia = createPinia();
+
 createApp(App).use(i18n).use(router).use(pinia).mount('#app')
